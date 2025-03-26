@@ -7,11 +7,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .navbar {
+            background: linear-gradient(90deg, #2c3e50, #34495e);
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ecf0f1 !important;
+        }
+        .navbar-nav .nav-link {
+            color: #ecf0f1 !important;
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #1abc9c !important;
+        }
+        .navbar-nav .nav-item.active .nav-link {
+            color: #1abc9c !important;
+            font-weight: bold;
+        }
+        .navbar-toggler {
+            border-color: #ecf0f1;
+        }
+        .navbar-toggler-icon {
+            background-color: #ecf0f1;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" >Hệ thống ĐKHP</a>
+            <a class="navbar-brand" href="index.php">Hệ thống ĐKHP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>

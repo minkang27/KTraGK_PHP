@@ -6,7 +6,7 @@
         <div>
             <div>
                 <?php if ($sv->Hinh): ?>
-                    <img src="/student/public/assets/images/<?= basename($sv->Hinh) ?>" style="max-width: 100%; height: auto;">
+                    <img src="/KtraGK/public/assets/images/<?= basename($sv->Hinh) ?>" style="max-width: 100%; height: auto;">
                 <?php else: ?>
                     <div>Không có hình ảnh</div>
                 <?php endif; ?>

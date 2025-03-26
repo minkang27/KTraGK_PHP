@@ -34,7 +34,7 @@ class SinhVienController {
             }
         } else {
             $nganhHoc = $this->nganhModel->getAll();
-            require_once 'app/views/sinhvien/create.php';
+            require_once 'app/views/sinhvien/them.php';
         }
     }
     

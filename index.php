@@ -4,8 +4,8 @@ session_start();
 // Load các file cần thiết
 require_once 'app/config/database.php';
 require_once 'app/controllers/AuthController.php';
-require_once 'app/controllers/SinhVienController.php';
-require_once 'app/controllers/HocPhanController.php';
+require_once 'app/controllers/SVController.php';
+require_once 'app/controllers/HPController.php';
 require_once 'app/controllers/DangKyController.php';
 
 // Xác định controller và action
